@@ -1,0 +1,77 @@
+﻿Functionalities:
+* Search food and recipe
+* Create daily log
+* Display daily log
+* Create recipe
+* Allergies/Diet Preferences
+* Profile
+* User Accounts
+* Nutrifacts nutrient calculator
+
+Functionalities that need to be tested:
+Models:
+* DailyLog, MealLog, MealFood
+   * get_total()
+* Food
+   * get_nutrients()
+* Profile
+   * get_metric_profile()
+   * create_profile()
+* Recipe
+   * create()
+   * get_total()
+* RecipeFood
+   * create()
+   * get_total()
+
+
+Views:
+* Nutrifacts
+* DisplayLogView
+* Diet and Allergies
+   * AddAllergyView
+   * AddDietPreferenceView
+   * DeleteAllergyView
+   * DeleteDietPreferenceView
+* RegisterAccountView
+* UpdateProfile
+* SearchResultsView
+* DetailRecipe
+   * ListRecipe
+   * CreateRecipe
+   * UpdateRecipe
+   * DeleteRecipe
+   * RecipeView
+       
+       
+Functionalities that don’t need testing:
+
+Models:
+* RecipePreset
+* User Accounts (default Django model)
+* Allergy
+* Diet Preference
+* BrandedIds
+
+Views:
+* Description
+* Index
+* LoginView (default Django view)
+* LogoutView (default Django view)
+* PasswordChangeView  (default Django view)
+* LogView
+
+Michael's tests (me):
+* Profile Model
+   * get_metric_profile()
+   * create_profile()
+* Allergy and Diet Preference Views
+   * AddAllergyView
+   * AddDietPreferenceView
+   * DeleteAllergyView
+   * DeleteDietPreferenceView
+* Register Account View
+   * Account created
+   * Account logged in after creation
+* Update Profile View
+   * Profile updates successfully
