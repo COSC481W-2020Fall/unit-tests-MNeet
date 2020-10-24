@@ -62,9 +62,6 @@ Views:
 * LogView
 
 Michael's tests (me):
-* Profile Model
-   * get_metric_profile()
-   * create_profile()
 * Allergy and Diet Preference Views
    * AddAllergyView
    * AddDietPreferenceView
@@ -73,5 +70,5 @@ Michael's tests (me):
 * Register Account View
    * Account created
    * Account logged in after creation
-* Update Profile View
-   * Profile updates successfully
+
+(originally I was also going to do profile tests but John is now doing those)
