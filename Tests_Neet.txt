@@ -70,5 +70,4 @@ Michael's tests (me):
 * Register Account View
    * Account created
    * Account logged in after creation
-
-(originally I was also going to do profile tests but John is now doing those)
+* Update Profile View
